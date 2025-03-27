@@ -1,0 +1,154 @@
+/* groot scherm */
+@media screen and (min-width: 770px){
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header h1 {
+    color: red;
+}
+
+header {
+    display: inline;
+    margin-top: 5px;
+}
+
+header div {
+    display: inline-block;
+    margin-top: 1px;
+}
+
+header section {
+    float: right;
+}
+
+header section div {
+    border-radius: 0, 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: fit-content;
+    padding: 5px;
+    color: white;
+}
+
+
+div1 img {
+    height: 430px;
+}
+
+div1 left {
+    height: 430px;
+    font-size: calc(10px + 1vw);
+}
+
+div1 left div {
+    border-radius: 0, 5px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: auto;
+    padding: 5px;
+    color: white;
+}
+
+div1 left .info {
+    margin-left: 15px;
+}
+
+div1 #info {
+    font-size: calc(5px + 0.8vw);
+}
+
+
+div2 {
+    display: flex;
+    width: 97.4%;
+    margin-top: 10px;
+}
+
+div2 movie {
+    background-color: white;
+    height: 170px;
+    width: 2px;
+    display: block;
+    margin: 5px;
+}
+}
+/* medium scherm */
+@media screen and (max-width: 770px){
+    body {
+        background-color: rgb(0, 0, 0);
+    }
+    
+    header h1 {
+        color: red;
+    }
+    
+    header {
+        display: inline;
+        margin-top: 5px;
+    }
+    
+    header div {
+        display: inline-block;
+        margin-top: 1px;
+    }
+    
+    header section {
+        float: right;
+    }
+    
+    header section div {
+        border-radius: 0, 5px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        width: fit-content;
+        padding: 5px;
+        color: white;
+    }
+    
+
+    div1 img {
+        height: 430px;
+    }
+    
+    div1 left {
+        height: 430px;
+        font-size: calc(10px + 1vw);
+    }
+    
+    div1 left div {
+        border-radius: 0, 5px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        width: auto;
+        padding: 5px;
+        color: white;
+    }
+    
+    div1 left .info {
+        margin-left: 15px;
+    }
+    
+    div1 #info {
+        font-size: calc(5px + 0.8vw);
+    }
+    div1 divA{
+        display: none;
+        /* background-color: red; */
+    }
+    
+
+    div2 {
+        display: flex;
+        width: 97.4%;
+        margin-top: 10px;
+    }
+    
+    div2 movie {
+        background-color: white;
+        height: 170px;
+        width: 2px;
+        display: block;
+        margin: 5px;
+    }
+}
