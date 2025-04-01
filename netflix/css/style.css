@@ -1,10 +1,14 @@
 /* Alle schermen */
 body {
     background-color: rgb(0, 0, 0);
+    font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header h1 {
     color: red;
+    font-weight: 900;
 }
 
 header {
@@ -20,8 +24,9 @@ header div {
 header section {
     float: right;
 }
+
 div1 {
-    display:flex;
+    display: flex;
 }
 
 header section div,
@@ -70,6 +75,7 @@ div1 left div {
         display: block;
         max-width: 100%;
         overflow-y: hidden;
+        margin-bottom: 10px;
     }
 
     div2 img {
@@ -94,6 +100,7 @@ div1 left div {
 
     div1 left .info {
         margin-left: 15px;
+        width:max-content;
     }
 
     div1 #info {
@@ -106,6 +113,7 @@ div1 left div {
 
     main div1 img {
         max-width: 50%;
+        height: auto;
     }
 
     div2 div {
@@ -130,11 +138,13 @@ div1 left div {
 
 /* Klein scherm */
 @media screen and (max-width: 576px) {
-    div1{
+    div1 {
         display: block;
     }
+
     div1 img {
-        height: calc(100px + 10vw);
+        width:fit-content;
+        height: auto;
         margin: 10px 0px;
     }
 
@@ -161,22 +171,21 @@ div1 left div {
 
     main div1 img {
         max-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     div2 movie a {
         background-color: white;
-        height: 170px;
         display: flex;
-        /* max-width: 100%; */
         margin-bottom: 10px;
         overflow-x: hidden;
-        /* width:auto; */
+        height: auto;
     }
 
     div2 img {
-        height: 100%;
         
         background-color: #cccccc;
     }
 }
-
