@@ -4,6 +4,7 @@ body {
     font-family: "Tinos", serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 header h1 {
@@ -35,30 +36,14 @@ div1 left div {
     border-color: rgb(255, 255, 255);
     border-style: solid;
     padding: 5px;
-    color: white;
-}
-
-div.scroll-container {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
-  }
-  
-  div.scroll-container img {
-    padding: 10px;
-    max-width: 200px;
-    max-height: auto;
-  }
-
-pin img{
-    min-height: 100%;
+    
 }
 
 /* Groot scherm */
 @media screen and (min-width: 768px) {
     div1 img {
         height: 430px;
+        /* max-width:max-content; */
     }
 
     div1 left {

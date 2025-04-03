@@ -1,0 +1,75 @@
+
+/* Alle schermen */
+header div {
+    border: 1px solid white;
+    font-size: calc(10px + 1.5vw);
+    margin-left: 15px;
+    padding: 1px;
+}
+
+header div:first-child {
+    font-size: calc(15px + 3vw);
+    margin-left: 40px;
+}
+
+section {
+    border: 1px solid white;
+    margin: 5px;
+}
+br{
+    display: none;
+}
+
+/* Groot scherm */
+@media screen and (min-width: 769px) {
+    body {
+        margin: 0;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+    }
+
+    img {
+        height: calc(365px + 50vh);
+        float: right;
+    }
+
+    section {
+        font-size: calc(1.5px + 2.5vw);
+    }
+}
+
+/* Klein scherm */
+@media screen and (max-width: 768px) {
+    all {
+        padding: 70px 0;
+    }
+
+    top {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-rows: auto auto;
+    }
+
+    img {
+        width: 100vw;
+        grid-row-start: 2;
+    }
+
+    section {
+        font-size: calc(10px + 2.5vw);
+        grid-row-start: 1;
+    }
+}
+@media screen and (max-width: 180px){
+    header div{
+        margin-left: 5px;
+    }
+    
+    header div:first-child{
+        margin-left: 5px;
+    }
+    br{
+        display: block;
+    }
+}
