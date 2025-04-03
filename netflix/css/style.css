@@ -36,7 +36,23 @@ div1 left div {
     border-color: rgb(255, 255, 255);
     border-style: solid;
     padding: 5px;
-    
+}
+ 
+.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.scroll-container img {
+    padding: 10px;
+    max-width: 200px;
+    height: auto; /* Correctie: max-height: auto is ongeldig */
+}
+
+.pin img { /* Correctie: 'pin' was geen geldig element, dus '.pin' als klasse gebruikt */
+    min-height: 100%;
 }
 
 /* Groot scherm */
