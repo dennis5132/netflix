@@ -6,17 +6,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #ff0000;
+    background: #333;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #3d3a3a;
+    background: #ff0000;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #3d3a3a;
+    background: #ffffff;
 }
 
 body {
