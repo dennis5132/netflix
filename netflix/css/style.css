@@ -48,7 +48,7 @@ div1 left div {
 .scroll-container img {
     padding: 10px;
     max-width: 200px;
-    height: auto; /* Correctie: max-height: auto is ongeldig */
+    height: 300px; /* Correctie: max-height: auto is ongeldig */
 }
 
 .pin img { /* Correctie: 'pin' was geen geldig element, dus '.pin' als klasse gebruikt */
