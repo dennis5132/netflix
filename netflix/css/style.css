@@ -95,6 +95,7 @@ a {
     div1 left {
         height: 430px;
         font-size: calc(10px + 1vw);
+        margin-left: 15%;
     }
 
     div1 left div {
@@ -160,6 +161,9 @@ a {
     }
 
     div1 divA div {
+        display: none;
+    }
+    divA a{
         display: none;
     }
 
