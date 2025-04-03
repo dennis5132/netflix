@@ -2,26 +2,26 @@
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: #ff0000;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #3d3a3a;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #3d3a3a;
-  }
+}
 
 body {
     background-color: rgb(0, 0, 0);
-    font-family: "Tinos", serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
@@ -52,12 +52,16 @@ div1 {
 
 header section div,
 div1 left div {
+
+    padding: 5px;
+}
+
+divA a {
     border-radius: 0, 5px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    padding: 5px;
 }
- 
+
 .scroll-container {
     background-color: #333;
     overflow: auto;
@@ -68,18 +72,24 @@ div1 left div {
 .scroll-container img {
     padding: 10px;
     max-width: 200px;
-    height: 300px; /* Correctie: max-height: auto is ongeldig */
+    height: 300px;
+    /* Correctie: max-height: auto is ongeldig */
+}
+a {
+    color:white;
+    text-decoration: none;
 }
 
-.pin img { /* Correctie: 'pin' was geen geldig element, dus '.pin' als klasse gebruikt */
+.pin img {
+    /* Correctie: 'pin' was geen geldig element, dus '.pin' als klasse gebruikt */
     min-height: 100%;
 }
 
 /* Groot scherm */
 @media screen and (min-width: 768px) {
     div1 img {
-        height: 430px;
-        /* max-width:max-content; */
+        height: 400px;
+        max-width: 300px;
     }
 
     div1 left {
@@ -93,10 +103,14 @@ div1 left div {
 
     div1 left .info {
         margin-left: 15px;
+        border-radius: 0, 5px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
     }
 
     div1 #info {
         font-size: calc(5px + 0.8vw);
+
     }
 
     main div1 img {

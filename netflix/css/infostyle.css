@@ -7,7 +7,7 @@ header div {
     padding: 1px;
 }
 
-header div:first-child {
+.play {
     font-size: calc(15px + 3vw);
     margin-left: 40px;
 }
